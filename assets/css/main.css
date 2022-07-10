@@ -2006,6 +2006,7 @@ footer, header, hgroup, menu, nav, section {
 /* Form */
 
 	form {
+		color: #ffffff;
 		margin: 0 0 2rem 0;
 	}
 
@@ -2256,6 +2257,7 @@ footer, header, hgroup, menu, nav, section {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
+
 			border-color: #20c5e7;
 			box-shadow: 0 0 0 1px #20c5e7;
 		}
@@ -4497,3 +4499,11 @@ footer, header, hgroup, menu, nav, section {
 		display: none;
 	}
 }
+
+input:valid,
+input:not(empty),
+textarea:not(empty),
+textarea:not(:invalid)
+textarea:valid {
+	background-color: #ffffff;
+  }
