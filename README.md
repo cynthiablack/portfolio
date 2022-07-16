@@ -9,7 +9,7 @@ This portfolio site showcases my early web development work and was built on an 
 
 **Tech used:** HTML, CSS
 
-This portfolio site was built on a responsive HTML template but needed significant refactoring to replace existing code with semantic HTML tags without altering the CSS styling.
+This portfolio site was built on a responsive HTML template. The existing code presented an opportunity to refactor to use semantic HTML tags while maintaining the existing CSS styling.
 
 ## Optimizations
 - Accessibility improvements to template
