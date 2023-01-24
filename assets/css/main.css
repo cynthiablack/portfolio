@@ -76,7 +76,20 @@ footer, header, hgroup, menu, nav, section {
 	top: -1vh;
 }
 
+.links-container {
+	margin-bottom: 1rem;
+}
+
+.links-left {
+	outline: white 1px solid;
+	padding: 0.5rem;
+	position: inherit;
+	left: 5vw;
+}
+
 .links-right {
+	outline: white 1px solid;
+	padding: 0.5rem;
 	position: inherit;
 	right: 5vw;
 }
@@ -116,6 +129,7 @@ footer, header, hgroup, menu, nav, section {
 
 	strong, b, .bold {
 		font-weight: 700;
+		font-weight: bold;
 	}
 
 	em, i {
@@ -3240,6 +3254,14 @@ footer, header, hgroup, menu, nav, section {
 				text-align: center;
 			}
 
+			.site-preview {
+				margin-bottom: 1rem;
+			}
+
+			.site-preview > .button {
+				background-color: #ffffff;
+			}
+
 		@media screen and (max-width: 980px) {
 
 			.spotlights {
@@ -3327,24 +3349,33 @@ footer, header, hgroup, menu, nav, section {
 				background: #20c5e7;
 				border-radius: 4px 4px 0 0;
 				content: '';
-				height: 9rem;
+				height: 18rem;
 				left: 0;
 				position: absolute;
 				top: 0;
 				width: 100%;
 			}
 
-			.profiles .profile .image {
+			/* .profiles .profile .image {
 				margin: 1rem 0 2rem 0;
 			}
 
 				.profiles .profile .image img {
 					border-radius: 100%;
-				}
+				} */
+
+			.profiles .profile .content {
+				margin-top: 20px;
+				padding-top: 20px;
+			}
+
+			.profiles .profile .content-left {
+				padding-top: 85px;
+			}
 
 			.profiles .profile .content > :last-child {
 				margin-bottom: 0;
-			}
+			} 
 
 		@media screen and (max-width: 980px) {
 
@@ -4506,4 +4537,8 @@ textarea:not(empty),
 textarea:not(:invalid)
 textarea:valid {
 	background-color: #ffffff;
+  }
+
+  .textarea-noresize {
+	resize: none;
   }
